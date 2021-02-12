@@ -6,6 +6,6 @@ It is an initiative to help women maintain their health and fitness.
 3. People can also find relevant Gym Equipments in Our Products Section.
 
 
-Product Demo
+## Product Demo
 
 ![Alt Text](https://github.com/aastha2912/Women-Health-and-Fitness/blob/main/WomenHealthandFitnessWIT.gif)
