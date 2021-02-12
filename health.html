@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ovulation Calculator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Women's <span>HEALTH AND FITNESS</span></a></div>
+				<a href="#menu" class="toggle"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Fitness</a></li>
+					<li><a href="health.html">Health</a></li>
+					<li><a href="shop.html">Our Products</a></li>
+				</ul>
+			</nav>
+
+		<!-- One -->
+			<!-- <div id="caleandar">
+
+			</div>  -->
+			<div id="container">
+			<div id="content">
+				<h1 style="font-weight: bold; margin: 30px; font-size: 2em"> OVULATION CALCULATOR </h1>
+				<P>Enter the first day of your Last Period 
+					<input type="date" id="previous_period" class="date" />
+				</P>
+				
+				<P>Enter the last day of your Current Period 
+					<input type="date" id="current_period" class="date" />
+				</P>
+			</div>
+			
+			<p>
+				<button id="button" onclick="ovulationCalculator()">Get your Results
+				</button>
+			</p>
+			
+			<section id="section1">
+				<P class="paragraph">YOUR MENSTRUAL CYCLE IS <span style="font-weight: bold;" id="mCycle"></span> DAYS<br />
+				<span class="definitions">(The menstrual cycle is the time from the first day of a woman's period to the day before her next period)</span></P>
+				
+				<P class="paragraph">YOU LAST OVULATED ON DAY <span style="font-weight: bold;" id="ovulation_day"></span> OF YOUR CYCLE EQUIVALENT TO <input type="date" id="last_ovulation" class="date" />
+				<br /><span class="definitions">(Ovulation is the release of egg(s) by the ovaries into the fallopian tube to be fertilized by sperm)</span></P>
+				
+				YOUR OVULATION WINDOW WAS FROM <input type="date" id="ovulation_window1" class="date" /> TO <input type="date" id="ovulation_window2" class="date" />
+				<br /><span class="definitions">(Ovulation window or fertile window refers to the most fertile days in your menstrual cycle which gives you the highest chance of conceiving)</span></P>
+			</section>
+			<section id="section2">
+				<p class="paragraph">YOUR NEXT MENSTRUATION IS ON <input type="date" id="next_mens" class="date" /></p>
+				
+				<P class="paragraph">YOUR NEXT OVULATION IS ON <input type="date" id="next_ovulation" class="date" /></P>
+				
+				<P class="paragraph">OVULATION WINDOW WILL BE BETWEEN <input type="date" id="ovulation_window3" class="date" /> AND <input type="date" id="ovulation_window4" class="date" />
+				<br /><span class="definitions">(Ovulation window or fertile window refers to the most fertile days in your menstrual cycle which gives you the highest chance of conceiving)</span></P>
+				
+				<p>SAFE PERIODS ARE <input type="date" id="safe_period1" class="date" /> TO <input type="date" id="safe_period2" class="date" />
+				AND <input type="date" id="safe_period3" class="date" /> TO <input type="date" id="safe_period4" class="date" /></span>
+				<br /><span class="definitions">(Safe periods are times in which conceiving is not possible)</span></p>
+			</section>		 
+	</div>
+
+	<section id="four" class="wrapper style3">
+				<div class="inner">
+
+					<header class="align-center">
+						<h2 style="margin-bottom: 30px;">Women's Health and Fitness</h2>
+						<p>It is an initiative to help women maintain their health and fitness. They can enroll in various Workout Health Programs or Diet Plans that can be tailored according to their needs. An ovulation calculatior has been added so that they are aware of their Ovulation Window and Safe Period. People can also find relevant gym equipments </p>
+					</header>
+
+				</div>
+			</section>
+		<!-- Scripts -->
+			<script src="assets/js/ovulation_calculation.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
